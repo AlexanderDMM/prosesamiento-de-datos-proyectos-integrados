@@ -58,7 +58,7 @@ plt.show()
 #parte 8
 
 # Lee los datos procesados
-df = pd.read_csv('datos_descargados.csv')
+df = pd.read_csv('datos_procesados.csv')
 
 valores_anémicos = df['anaemia'].value_counts()
 valores_diabéticos = df['diabetes'].value_counts()
@@ -95,7 +95,7 @@ plt.show()
 
 #parte 9
 
-df = pd.read_csv("datos_procesados1.csv")
+df = pd.read_csv("datos_procesados.csv")
 
 dfnew = df.drop(columns=["DEATH_EVENT", "categoria_edad"])
 
